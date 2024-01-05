@@ -11,6 +11,14 @@ header {
   justify-content: space-around;
   background-color: #0f3c65;
 }
+.links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  width: 400px;
+  padding: 0 10;
+}
 a {
   text-decoration: none;
   color: rgb(255, 255, 255);
@@ -21,6 +29,9 @@ a {
   flex-direction: row;
   flex-wrap: wrap;
 }
+#bg3 {
+  border-radius: 7%;
+}
 .second {
   background-color: #a4482f;
   display: flex;
@@ -28,16 +39,51 @@ a {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 .card {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   border-radius: 25px;
-  border: #0f3c65 10px solid;
-  padding: 10px;
+  padding: 0px;
+  align-items: center;
+  justify-content: flex-start;
 }
 .card-container {
   display: flex;
   gap: 10px;
+  flex-wrap: wrap;
+}
+#img-card {
+  border-radius: 7%;
+  height: 200px;
+  width: 200px;
+  border: #0f3c65 10px solid;
+}
+.card-text {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: auto;
+  align-items: center;
+  text-align: center;
+}
+h3{
+  padding: 0;
+  margin: 0;
+  gap: 0;
+}
+.phrase-container {
+  background-color: #d3d3d3;
+}
+.phrase1 {
+  display: flex;
+  padding: 100px;
+}
+.signup {
+  background-color: #0f3c65;
+}
+footer {
+  background-color: #222222;
 }

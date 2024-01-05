@@ -9,15 +9,26 @@
   </head>
   <body>
     <header>
-      <img
-        src="../img/logo-bg3.png"
-        alt="Baldurs Gate 3 Logo"
-        width="auto"
-        height="50px"
-      />
-      <a href="https://baldursgate3.game/">Official Website</a>
-      <a href="https://bg3.wiki/">Wiki</a>
-      <a href="https://store.steampowered.com/agecheck/app/1086940/">Steam</a>
+      <a target="_blank" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+        <img
+          src="../img/logo-bg3.png"
+          href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+          alt="Baldurs Gate 3 Logo"
+          width="auto"
+          height="50px"
+        />
+      </a>
+      <div class="links">
+        <a target="_blank" href="https://baldursgate3.game/"
+          >Official Website</a
+        >
+        <a target="_blank" href="https://bg3.wiki/">Wiki</a>
+        <a
+          target="_blank"
+          href="https://store.steampowered.com/agecheck/app/1086940/"
+          >Steam</a
+        >
+      </div>
     </header>
     <section class="first">
       <div class="text1">
@@ -30,62 +41,86 @@
         <button class="Sign up">Sign up</button>
       </div>
       <img
+        id="bg3"
         src="../img/main.jpeg"
         alt="Baldurs Gate 3 Main Image"
         width="400"
         height="auto"
+        border-radius="20%"
       />
     </section>
     <section class="second">
-      <h1>Locations</h1>
+      <h1>Main Locations - Chapter 1</h1>
       <div class="card-container">
         <div class="card">
           <img
+            id="img-card"
             src="../img/blighted.jpg"
             height="200"
             width="auto"
             alt="The Blighted Village"
           />
-          <h1>The Blighted Village</h1>
+          <div class="card-text">
+            <h3>The Blighted Village</h3>
+            <p>
+              A hidden cellar beneath the Hag's hut contains a portal to the
+              Underdark, guarded by a territorial Bulette. Be prepared for a
+              fight if you want to explore the depths!
+            </p>
+          </div>
         </div>
         <div class="card">
-          <img src="../img/goblin.jpg" height="200" width="auto alt="The Goblin
-          Camp" />
-          <h1>The Goblin Camp</h1>
+          <img
+            id="img-card"
+            src="../img/goblin.jpg"
+            height="200"
+            width="auto"
+            alt="The Goblin Camp"
+          />
+          <div class="card-text">
+            <h3>The Goblin Camp</h3>
+            <p>
+              Within the camp lies a hidden stash of cursed items, including the
+              infamous "Boots of Dancing" that will make you jig uncontrollably.
+            </p>
+          </div>
         </div>
         <div class="card">
-          <img src="../img/emerald.jpg" height="200" width="auto alt="The Druid
-          Grove" />
-          <h1>The Druid Grove</h1>
+          <img
+            id="img-card"
+            src="../img/emerald.jpg"
+            height="200"
+            width="auto"
+            alt="The Druid Grove"
+          />
+          <div class="card-text">
+            <h3>The Druid Grove</h3>
+            <p>
+              Deep within the heart of the Grove, whispers speak of a hidden
+              grove tended by a mischievous Sprite who grants wishes, but at a
+              potentially hefty price.
+            </p>
+          </div>
         </div>
         <div class="card">
-          <img src="../img/ruins.jpg" height="200" width="auto alt="The Ancient
-          Crypt" />
-          <h1>The Ancient Crypt</h1>
+          <img
+            id="img-card"
+            src="../img/ruins.jpg"
+            height="200"
+            width="auto"
+            alt="The Ancient Crypt"
+          />
+          <div class="card-text">
+            <h3>The Ancient Crypt</h3>
+            <p>
+              Lurking within the shadows of the crypt's mausoleum is a spectral
+              Lich seeking a worthy successor. Do you dare offer yourself?
+            </p>
+          </div>
         </div>
       </div>
-
-      <p>
-        A hidden cellar beneath the Hag's hut contains a portal to the
-        Underdark, guarded by a territorial Bulette. Be prepared for a fight if
-        you want to explore the depths!
-      </p>
-      <p>
-        Within the camp lies a hidden stash of cursed items, including the
-        infamous "Boots of Dancing" that will make you jig uncontrollably,
-        potentially attracting unwanted attention.
-      </p>
-      <p>
-        Deep within the heart of the Grove, whispers speak of a hidden grove
-        tended by a mischievous Sprite who grants wishes, but at a potentially
-        hefty price.
-      </p>
-      <p>
-        Lurking within the shadows of the crypt's mausoleum is a spectral Lich
-        seeking a worthy successor. Do you dare offer yourself?
-      </p>
     </section>
-    <section class="phrase">
+    <section class="phrase-container">
       <div class="phrase1">
         "The wound of the world bleeds darkness, but within that darkness blooms
         a radiant promise. We are the surgeons, the alchemists, the artists who
@@ -94,9 +129,11 @@
       </div>
       - Shadowheart
     </section>
-    <section class="signup">Sign Up</section>
-    <p>abc</p>
-    <p>abc</p>
+    <section class="signup">
+      Sign Up
+      <p>abc</p>
+      <p>abc</p>
+    </section>
     <button>Sign Up</button>
     <footer>Copyright © The Odin Project 2024</footer>
   </body>
