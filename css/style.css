@@ -6,6 +6,7 @@ body {
   display: flex;
   flex-direction: column;
 }
+/* header */
 header {
   display: flex;
   justify-content: space-around;
@@ -24,6 +25,8 @@ a {
   text-decoration: none;
   color: rgb(255, 255, 255);
 }
+/* main */
+/* SECTION 1 */
 .first {
   background-color: #0f3c65;
   display: flex;
@@ -80,6 +83,9 @@ a {
   width: 400px;
   border: #ff0000 1px solid;
 }
+
+/* SECTION 2 */
+
 .second {
   background-color: #a4482f;
   display: flex;
@@ -122,13 +128,89 @@ h3 {
   margin: 0;
   gap: 0;
 }
+
+/* SECTION 3 - PHRASE */
+
 .phrase-container {
+  display: flex;
+  flex-direction: column;
   background-color: #d3d3d3;
+  height: 350px;
+  justify-content: center;
+  align-items: center;
 }
 .phrase1 {
-  display: flex;
-  padding: 100px;
+  width: 800px;
+  margin-bottom: 15px;
+  font-size: 30px;
+  font-weight: 250;
+  font-style: italic;
+  line-height: 35px;
+  letter-spacing: 1px;
 }
+.signature {
+  margin-left: 550px;
+  font-weight: 600;
+  font-size: 19px;
+}
+
+/* CALL TO ACTION SLOT */
+
+.call-to-action {
+  background-color: #a4482f;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cta-container {
+  background-color: #0f3c65;
+  width: 700px;
+  height: 90px;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cta-text {
+  width: 500px;
+  margin-right: 50px;
+}
+.cta {
+  color: #fff;
+  font-size: 17px;
+  margin-bottom: 0;
+}
+.cta2 {
+  color: #fff;
+  margin-top: 5px;
+  font-size: 12px;
+}
+.signupbutton {
+  text-decoration: none;
+  font-weight: 500;
+  color: #fff;
+  background-color: #a4482f;
+  border: 1px solid #a4482f;
+  border-radius: 5px;
+  padding: 7px 25px;
+}
+.signupbutton:hover {
+  color: #0f3c65;
+  background-color: #d3d3d3;  
+  border: 1px solid #d3d3d3;
+  box-shadow: -1.5px 8px 15px 0px #af3a1a;
+}
+
+/* footer */
+
 footer {
-  background-color: #222222;
+  background-color: #0f3c65;
+  color: white;
+  margin: 0;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
 }
