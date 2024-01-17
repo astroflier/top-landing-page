@@ -6,7 +6,9 @@ body {
   display: flex;
   flex-direction: column;
 }
-/* header */
+
+/* HEADER */
+/* I still want to work with this header someday, it could be improved */
 header {
   display: flex;
   justify-content: space-around;
@@ -19,23 +21,20 @@ header {
   align-items: center;
   gap: 10px;
   width: 300px;
-  padding: 0 10;
+  padding: 0 10px;
 }
 a {
   text-decoration: none;
   color: rgb(255, 255, 255);
 }
-/* main */
+
 /* SECTION 1 */
+
 .first {
   background-color: #0f3c65;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
-  padding: 0 220px;
-  border: #00ff15 solid 1px;
 }
 #bg3 {
   border-radius: 7%;
@@ -43,45 +42,44 @@ a {
 .text1 {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  border: #c50000 solid 3px;
+  justify-content: center;
+  align-items: flex-start;
+  width: 510px;
+  height: 400px;
+  padding: 10px;
 }
 #chaos {
-  display: flex; /* change to display:absolute to fix position, along with lower texts */
-  font-weight: 600;
+  color: #fff;
   font-size: 25px;
-  font-style: normal;
-  border: #d3d3d3 1px solid;
-}
-#shadow {
   font-weight: 500;
-  font-size: 15px;
+  margin-bottom: 0;
+}
+#shadowsign {
   font-style: italic;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  border: #d3d3d3 1px solid;
+  color: #d3d3d3;
+  font-size: 15px;
+  font-weight: 300;
+  margin: 5px 0 0 300px;
 }
 #firsttext {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  border: #d3d3d3 1px solid;
+  color: #bbbbbb;
+  font-size: 15px;
+  width: 400px;
 }
 .signup {
-  display: inline-block;
-  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 500;
+  border-radius: 5px;
   background-color: #a4482f;
   border: none;
   color: #ffffff;
-  text-align: center;
   font-size: 22px;
   padding: 7px 25px;
-  width: 400px;
-  border: #ff0000 1px solid;
+}
+.signup:hover {
+  color: #0f3c65;
+  background-color: #d3d3d3;
+  box-shadow: -1.5px 8px 15px 0px #af3a1a;
 }
 
 /* SECTION 2 */
@@ -113,7 +111,7 @@ a {
   border-radius: 7%;
   height: 200px;
   width: 200px;
-  border: #0f3c65 10px solid;
+  border: #0f3c65 6px solid;
 }
 .card-text {
   display: flex;
@@ -127,6 +125,8 @@ h3 {
   padding: 0;
   margin: 0;
   gap: 0;
+  font-weight: 600;
+  color: #0f3c65;
 }
 
 /* SECTION 3 - PHRASE */
@@ -191,18 +191,17 @@ h3 {
   font-weight: 500;
   color: #fff;
   background-color: #a4482f;
-  border: 1px solid #a4482f;
+  border: 1px solid #00000000;
   border-radius: 5px;
   padding: 7px 25px;
 }
 .signupbutton:hover {
   color: #0f3c65;
-  background-color: #d3d3d3;  
-  border: 1px solid #d3d3d3;
+  background-color: #d3d3d3;
   box-shadow: -1.5px 8px 15px 0px #af3a1a;
 }
 
-/* footer */
+/* FOOTER */
 
 footer {
   background-color: #0f3c65;
